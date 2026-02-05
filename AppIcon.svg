@@ -1,0 +1,32 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners -->
+  <rect width="1024" height="1024" rx="224" fill="url(#gradient)"/>
+
+  <!-- PDF Document shape -->
+  <path d="M280 180 L280 844 L744 844 L744 320 L604 180 Z" fill="white" fill-opacity="0.95"/>
+
+  <!-- Document fold -->
+  <path d="M604 180 L604 320 L744 320 Z" fill="#E0E0E0"/>
+
+  <!-- PDF lines (content representation) -->
+  <rect x="340" y="380" width="280" height="24" rx="12" fill="#CBD5E1"/>
+  <rect x="340" y="440" width="320" height="24" rx="12" fill="#CBD5E1"/>
+  <rect x="340" y="500" width="240" height="24" rx="12" fill="#CBD5E1"/>
+  <rect x="340" y="560" width="300" height="24" rx="12" fill="#CBD5E1"/>
+
+  <!-- Grade circle badge -->
+  <circle cx="680" cy="700" r="140" fill="#EF4444"/>
+  <circle cx="680" cy="700" r="120" fill="none" stroke="white" stroke-width="8"/>
+
+  <!-- A+ Grade text -->
+  <text x="680" y="720" font-family="system-ui, -apple-system, sans-serif" font-size="120" font-weight="bold" fill="white" text-anchor="middle">A</text>
+  <text x="760" y="660" font-family="system-ui, -apple-system, sans-serif" font-size="60" font-weight="bold" fill="white">+</text>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1024" y2="1024">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+</svg>

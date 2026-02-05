@@ -1,0 +1,84 @@
+# =========================
+# Swift / Xcode .gitignore
+# =========================
+
+# Xcode User Data
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad
+
+# Build Products
+build/
+DerivedData/
+*.build/
+
+# Xcode Scheme Management
+*.xcscheme
+xcschememanagement.plist
+
+# Xcode Workspace Settings (optional - comment out if you want to share)
+# *.xcworkspace
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+Packages/
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# Carthage (if used)
+Carthage/Build/
+Carthage/Checkouts/
+
+# macOS System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*~
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Archives
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Signing
+*.mobileprovision
+*.provisionprofile
+
+# App Store Connect API Key
+AuthKey_*.p8
+
+# Secrets / Environment
+.env
+.env.*
+*.pem
+*.p12
+Secrets/
+
+# Claude Code
+.claude/
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
